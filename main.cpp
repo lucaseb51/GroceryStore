@@ -28,7 +28,7 @@ if(input=='q'||input=='Q')
 
 if(input=='a'||input=='A')
 {   
-    cout<<"Name an item you would like to add to your list."<<endl;
+    cout<<"What is the item?"<<endl;
     cin>>item;
     if(size<5){
     list[size]=item;
