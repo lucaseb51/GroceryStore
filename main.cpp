@@ -10,7 +10,7 @@ int main()
   char input;
   int tf=0;
   string item;
-
+  int i;
 
 while(tf==0){
 
@@ -23,6 +23,12 @@ while(tf==0){
 
 if(input=='q'||input=='Q')
     {
+       cout<<"1 "<<list[0]<<endl;
+       cout<<"2 "<<list[1]<<endl;
+       cout<<"3 "<<list[2]<<endl;
+       cout<<"4 "<<list[3]<<endl;
+       cout<<"5 "<<list[4]<<endl;
+        
         tf=1;
     }
 
